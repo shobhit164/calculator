@@ -43,7 +43,7 @@ button {
 .key_row_2 > button,
 .key_row_3 > button,
 .key_row_4 > button {
-  width: 18%;
+  width: 20%;
   height: 3rem;
   font-size: 1.3rem;
   border-radius: 1rem;
@@ -64,7 +64,7 @@ button {
 }
 
 .key_row_5 > button {
-  width: 42.5%;
+  width: 44.5%;
   height: 3rem;
   font-size: 1.3rem;
   border-radius: 1rem;
