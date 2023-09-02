@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  background: #3b4664;
+}
+
+button {
+  border-style: none;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.display_screen {
+  width: 32%;
+  height: 15%;
+  border-radius: 1rem;
+  background: #181f32;
+}
+
+.main_keys {
+  height: 33rem;
+  width: 32%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 1rem;
+  background: #252d44;
+}
+
+.key_row_1 > button,
+.key_row_2 > button,
+.key_row_3 > button,
+.key_row_4 > button {
+  width: 20%;
+  height: 4rem;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+  background: #eae3db;
+}
+
+.key_row_1 > button:last-of-type {
+  background: #647299;
+}
+
+.key_row_1,
+.key_row_2,
+.key_row_3,
+.key_row_4,
+.key_row_5 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.key_row_5 > button {
+  width: 44.5%;
+  height: 4rem;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+}
+
+.key_row_1 > button:last-of-type {
+  color: #fff;
+}
+
+.key_row_5 > button:first-of-type {
+  background: #647299;
+  color: #fff;
+}
+.key_row_5 > button:last-of-type {
+  background: #d13f30;
+  color: #fff;
+}
