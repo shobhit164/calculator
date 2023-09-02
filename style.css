@@ -22,15 +22,15 @@ button {
 }
 
 .display_screen {
-  width: 32%;
-  height: 15%;
+  width: 25%;
+  height: 13%;
   border-radius: 1rem;
   background: #181f32;
 }
 
 .main_keys {
-  height: 33rem;
-  width: 32%;
+  height: 26rem;
+  width: 25%;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -43,8 +43,8 @@ button {
 .key_row_2 > button,
 .key_row_3 > button,
 .key_row_4 > button {
-  width: 20%;
-  height: 4rem;
+  width: 18%;
+  height: 3rem;
   font-size: 1.3rem;
   border-radius: 1rem;
   background: #eae3db;
@@ -64,8 +64,8 @@ button {
 }
 
 .key_row_5 > button {
-  width: 44.5%;
-  height: 4rem;
+  width: 42.5%;
+  height: 3rem;
   font-size: 1.3rem;
   border-radius: 1rem;
 }
