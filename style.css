@@ -12,11 +12,24 @@ button {
   border: none;
   outline: none;
   box-shadow: 5px 5px 8px #000;
+  transition: all 0.5s ease-in-out;
 }
 
 button:hover {
   scale: 1.1;
   cursor: pointer;
+}
+
+.key_row_1 > button:last-of-type:hover {
+  cursor: url("./icons8-trash-32.png"), pointer;
+}
+
+.key_row_5 > button:first-of-type:hover {
+  cursor: url("./icons8-reset-32.png"), pointer;
+}
+
+.key_row_5 > button:last-of-type:hover {
+  cursor: url("./icons8-calculate-36.png"), pointer;
 }
 
 .wrapper {
