@@ -144,10 +144,19 @@ button:hover {
   }
 
   .key_row_1 > button:last-of-type {
-    font-size: 15px;
+    font-size: 11px;
   }
 
   .key_row_5 > button:first-of-type {
+    font-size: 11px;
+  }
+
+  .key_row_1 > button,
+  .key_row_2 > button,
+  .key_row_3 > button,
+  .key_row_4 > button,
+  .key_row_5 > button {
+    height: 1.8rem;
     font-size: 15px;
   }
 }
