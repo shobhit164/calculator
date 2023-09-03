@@ -20,18 +20,6 @@ button:hover {
   cursor: pointer;
 }
 
-.key_row_1 > button:last-of-type:hover {
-  cursor: url("./icons8-trash-32.png"), pointer;
-}
-
-.key_row_5 > button:first-of-type:hover {
-  cursor: url("./icons8-reset-32.png"), pointer;
-}
-
-.key_row_5 > button:last-of-type:hover {
-  cursor: url("./icons8-calculate-36.png"), pointer;
-}
-
 .wrapper {
   height: 100vh;
   display: flex;
@@ -80,7 +68,7 @@ button:hover {
 .key_row_3 > button,
 .key_row_4 > button {
   width: 20%;
-  height: 3rem;
+  height: 2.5rem;
   font-size: 1.3rem;
   border-radius: 0.6rem;
   background: #eae3db;
@@ -97,7 +85,7 @@ button:hover {
 
 .key_row_5 > button {
   width: 44.5%;
-  height: 3rem;
+  height: 2.5rem;
   font-size: 1.3rem;
   border-radius: 0.6rem;
 }
@@ -116,6 +104,18 @@ button:hover {
   color: #fff;
 }
 
+.key_row_1 > button:last-of-type:hover {
+  cursor: url("./icons8-trash-32.png"), pointer;
+}
+
+.key_row_5 > button:first-of-type:hover {
+  cursor: url("./icons8-reset-32.png"), pointer;
+}
+
+.key_row_5 > button:last-of-type:hover {
+  cursor: url("./icons8-calculate-36.png"), pointer;
+}
+
 @media screen and (max-width: 1068px) {
   .display_screen {
     width: 70vw;
@@ -126,5 +126,27 @@ button:hover {
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .main_keys {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .display_screen {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .key_row_1 > button:last-of-type {
+    font-size: 15px;
+  }
+
+  .key_row_5 > button:first-of-type {
+    font-size: 15px;
   }
 }
