@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script&family=Delius+Unicase:wght@700&family=Inter:wght@700;800&family=Outfit:wght@400;700&family=Poltawski+Nowy:wght@500&family=Roboto:wght@100&display=swap");
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -43,9 +45,9 @@ button:hover {
 .display_input {
   background-color: #181f32;
   color: #ffffff;
-  font-size: 1.6rem;
+  font-size: 2rem;
   text-align: end;
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.3rem;
   border: none;
   height: 4rem;
   width: 90%;
