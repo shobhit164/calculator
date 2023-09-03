@@ -132,6 +132,7 @@ button:hover {
 @media screen and (max-width: 435px) {
   .main_keys {
     width: 80vw;
+    height: 50vh;
     margin-left: auto;
     margin-right: auto;
   }
