@@ -81,19 +81,11 @@ function getInput_3() {
 
 function getDot() {
   let dot = document.querySelector(".display_input");
-  if (dot.value.length == 1 && dot.value == 0) {
-    dot.value = ".";
-    return;
-  }
   dot.value += ".";
 }
 
 function getZero() {
   let zero = document.querySelector(".display_input");
-  if (zero.value.length == 1 && zero.value == 0) {
-    zero.value = 0;
-    return;
-  }
   zero.value += 0;
 }
 
