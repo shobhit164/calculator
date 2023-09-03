@@ -113,7 +113,7 @@ button:hover {
 }
 
 .key_row_5 > button:last-of-type:hover {
-  cursor: url("./icons8-calculate-36.png"), pointer;
+  cursor: url("./icons8-calculator-32.png"), pointer;
 }
 
 @media screen and (max-width: 1068px) {
