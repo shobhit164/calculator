@@ -40,6 +40,7 @@ button:hover {
   height: 12%;
   border-radius: 1rem;
   background: #181f32;
+  box-shadow: 10px 10px 15px;
 }
 
 .display_input {
@@ -63,6 +64,7 @@ button:hover {
   justify-content: space-evenly;
   border-radius: 1rem;
   background: #252d44;
+  box-shadow: 10px 10px 15px;
 }
 
 .key_row_1 > button,
