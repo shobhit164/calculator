@@ -99,3 +99,31 @@ function getReset() {
   let reset = document.querySelector(".display_input");
   reset.value = 0;
 }
+
+function getResult() {
+  let result = document.querySelector(".display_input");
+  let string = result.value.replace(/×/g, "*"); //globally replace all value of 'x' in string with '*'
+  let equals = eval(string);
+  result.value = equals;
+}
+
+function getPlus() {
+  let plus = document.querySelector(".display_input");
+  let end_value = plus.value.slice(-1);
+
+  if (
+    end_value == "-" ||
+    end_value == "*" ||
+    end_value == "/" ||
+    end_value == "."
+  ) {
+    let new_value = plus.value.slice(0, -1);
+    new_value += "+";
+    plus.value = new_value;
+    return;
+  }
+  if (end_value == "+") {
+    return;
+  }
+  plus.value += "+";
+}
