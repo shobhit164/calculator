@@ -56,7 +56,7 @@ button:hover {
 }
 
 .main_keys {
-  height: 30rem;
+  height: 27rem;
   width: 25%;
   padding: 1rem;
   display: flex;
@@ -71,8 +71,8 @@ button:hover {
 .key_row_2 > button,
 .key_row_3 > button,
 .key_row_4 > button {
-  width: 20%;
-  height: 2.5rem;
+  width: 18%;
+  height: 2rem;
   font-size: 1.3rem;
   border-radius: 0.6rem;
   background: #eae3db;
@@ -88,8 +88,8 @@ button:hover {
 }
 
 .key_row_5 > button {
-  width: 44.5%;
-  height: 2.5rem;
+  width: 42.5%;
+  height: 2rem;
   font-size: 1.3rem;
   border-radius: 0.6rem;
 }
@@ -120,27 +120,27 @@ button:hover {
   cursor: url("./icons8-calculator-32.png"), pointer;
 }
 
-@media screen and (max-width: 1068px) {
+@media screen and (max-width: 1171px) {
   .display_screen {
-    width: 70vw;
+    width: 55vw;
     margin-left: auto;
     margin-right: auto;
   }
   .main_keys {
-    width: 70vw;
+    width: 55vw;
+    height: 55vh;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 550px) {
   .main_keys {
     width: 80vw;
     height: 50vh;
     margin-left: auto;
     margin-right: auto;
   }
-
   .display_screen {
     width: 80vw;
     margin-left: auto;
