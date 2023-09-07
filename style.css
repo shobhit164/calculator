@@ -20,8 +20,28 @@ button {
 button:hover {
   scale: 1.1;
   cursor: pointer;
+  box-shadow: -0.5px 0 10px #fff;
 }
 
+.key_row_1 > button:last-of-type:hover {
+  box-shadow: -0.5px 0 10px red;
+}
+
+.key_row_5 > button:first-of-type:hover {
+  box-shadow: -0.5px 0 10px yellow;
+}
+
+.key_row_5 > button:last-of-type:hover {
+  box-shadow: -0.5px 0 10px rgb(0, 255, 68);
+}
+
+.key_row_2 > button:last-of-type:hover,
+.key_row_3 > button:last-of-type:hover,
+.key_row_4 > button:last-of-type:hover,
+.key_row_4 > button:nth-child(3):hover {
+  color: red;
+  font-size: x-large;
+}
 .wrapper {
   height: 100vh;
   display: flex;
