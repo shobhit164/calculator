@@ -103,8 +103,8 @@ function getReset() {
 function getResult() {
   let result = document.querySelector(".display_input");
   let string = result.value.replace(/×/g, "*"); //globally replace all value of 'x' in string with '*'
-  let equals = eval(string);
-  result.value = equals;
+  let calc = eval(string);
+  result.value = calc;
 }
 
 function getPlus() {
@@ -126,4 +126,67 @@ function getPlus() {
     return;
   }
   plus.value += "+";
+}
+
+function getMinus() {
+  let minus = document.querySelector(".display_input");
+  let end_value = minus.value.slice(-1);
+
+  if (
+    end_value == "+" ||
+    end_value == "*" ||
+    end_value == "/" ||
+    end_value == "."
+  ) {
+    let new_value = minus.value.slice(0, -1);
+    new_value += "-";
+    minus.value = new_value;
+    return;
+  }
+  if (end_value == "-") {
+    return;
+  }
+  minus.value += "-";
+}
+
+function getDivide() {
+  let divide = document.querySelector(".display_input");
+  let end_value = divide.value.slice(-1);
+
+  if (
+    end_value == "+" ||
+    end_value == "*" ||
+    end_value == "-" ||
+    end_value == "."
+  ) {
+    let new_value = divide.value.slice(0, -1);
+    new_value += "/";
+    divide.value = new_value;
+    return;
+  }
+  if (end_value == "/") {
+    return;
+  }
+  divide.value += "/";
+}
+
+function getMultiply() {
+  let multiply = document.querySelector(".display_input");
+  let end_value = multiply.value.slice(-1);
+
+  if (
+    end_value == "+" ||
+    end_value == "-" ||
+    end_value == "/" ||
+    end_value == "."
+  ) {
+    new_value = multiply.value.slice(0, -1);
+    new_value += "*";
+    multiply.value = new_value;
+    return;
+  }
+  if (end_value == "*") {
+    return;
+  }
+  multiply.value += "*";
 }
