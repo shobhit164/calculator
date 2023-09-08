@@ -42,6 +42,7 @@ button:hover {
   color: red;
   font-size: x-large;
 }
+
 .wrapper {
   height: 100vh;
   display: flex;
@@ -123,6 +124,7 @@ button:hover {
   background: #647299;
   color: #fff;
 }
+
 .key_row_5 > button:last-of-type {
   background: #d13f30;
   color: #fff;

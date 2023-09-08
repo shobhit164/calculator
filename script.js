@@ -100,11 +100,21 @@ function getReset() {
   reset.value = 0;
 }
 
-function getResult() {
+function check() {
   let result = document.querySelector(".display_input");
   let string = result.value.replace(/×/g, "*"); //globally replace all value of 'x' in string with '*'
   let calc = eval(string);
-  result.value = calc;
+
+  function isDecimal(calc) {
+    return calc % 1;
+  }
+  if (isDecimal(calc)) {
+    result.value = calc.toFixed(6);
+    let final_val = eval(result.value);
+    result.value = final_val;
+  } else {
+    result.value = calc;
+  }
 }
 
 function getPlus() {
