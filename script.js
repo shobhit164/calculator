@@ -97,7 +97,7 @@ function deleteInput() {
 
 function getReset() {
   let reset = document.querySelector(".display_input");
-  reset.value = 0;
+  reset.value = "";
 }
 
 function check() {
